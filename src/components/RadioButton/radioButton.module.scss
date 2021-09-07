@@ -1,0 +1,94 @@
+@import "stylesheets/variables.scss";
+@import "stylesheets/responsive.scss";
+
+.mainContainer {
+  border: 2px solid $grey;
+  width: 500px;
+  display: flex;
+  height: 70px;
+  border-radius: 4px;
+  align-items: center;
+  padding: 0px 20px;
+  @media #{$mobile_device} {
+    width: 300px;
+    margin-left: 16px;
+    height: 60px;
+  }
+  @media (min-width: 0) and (max-width: 340px) {
+    width: 260px;
+    height: 50px;
+  }
+}
+
+.container {
+  height: 70px;
+  display: flex;
+  width: inherit;
+  align-items: center;
+  position: relative;
+  padding-left: 60px;
+  cursor: pointer;
+  font-size: $large-font;
+  font-family: $primary-font-family;
+  font-weight: 600;
+  user-select: none;
+  box-sizing: border-box;
+  color: $medium-grey;
+  text-align: left;
+  line-height: 20px;
+  @media #{$tablet_device} {
+    font-size: $large-font-tablet;
+    padding-left: 40px;
+  }
+  @media #{$mobile_device} {
+    font-size: $large-font-mobile;
+    padding-left: 30px;
+    height: 60px;
+  }
+  @media (min-width: 0) and (max-width: 340px) {
+    height: 50px;
+  }
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  display: none;
+}
+
+.checkmark {
+  position: absolute;
+  left: 0;
+  height: 19px;
+  width: 19px;
+  background-color: $white;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 2px solid $medium-grey;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: $white;
+  border: 2px solid $primary-color;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  width: 15px;
+  height: 15px;
+  border: 1px solid $white;
+  background-color: $primary-color;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: normal;
+  border-radius: 50%;
+}

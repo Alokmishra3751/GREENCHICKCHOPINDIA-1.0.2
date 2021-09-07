@@ -1,0 +1,17 @@
+@import "stylesheets/variables.scss";
+@import "stylesheets/responsive.scss";
+
+.errorContainer {
+  align-self: flex-start;
+  color: $primary-color;
+  font-size: $small-font;
+  text-align: left;
+  padding-top: 2px;
+  font-family: $black;
+  @media #{$tablet_device} {
+    font-size: $small-font-tablet;
+  }
+  @media #{$mobile_device} {
+    font-size: $small-font-mobile;
+  }
+}

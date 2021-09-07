@@ -1,0 +1,120 @@
+@import "stylesheets/variables.scss";
+@import "stylesheets/responsive.scss";
+
+.checkoutCardContainer {
+  width: 90%;
+  min-height: 200px;
+  border: $primary-border;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  @media #{$mobile_device} {
+    width: 85%;
+    padding: 10px;
+    min-height: 165px;
+  }
+}
+
+.checkoutCardSubContainer {
+  display: flex;
+  justify-content: space-between;
+  @media #{$mobile_device} {
+    flex-direction: column;
+    height: 165px;
+  }
+}
+
+.checkoutCardImageStyle {
+  width: 250px;
+  height: 200px;
+
+  @media #{$mobile_device} {
+    width: 150px;
+    height: 100px;
+  }
+}
+
+.checkoutCardLeftContainer {
+  display: flex;
+}
+
+.checkoutCardLeftContent {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0 30px;
+  @media #{$mobile_device} {
+    margin: 0 10px;
+  }
+}
+
+.checkoutCardLeftContent h3 {
+  margin: 0;
+  font-weight: 600;
+  @media #{$tablet_device} {
+    font-size: $normal-font-table;
+  }
+  @media #{$mobile_device} {
+    font-size: $normal-font-mobile;
+    width: max-content;
+  }
+}
+
+.checkoutCardLeftContent h4 {
+  margin: 0;
+  color: $medium-grey;
+  font-size: $normal-font;
+  font-weight: 600;
+  @media #{$tablet_device} {
+    font-size: 14px;
+  }
+  @media #{$mobile_device} {
+    font-size: 12px;
+  }
+}
+
+.checkoutButtonStyle {
+  background-color: unset;
+  color: $primary-color;
+  border: unset;
+  padding: 0 0 35px 0;
+  font-size: $large-font;
+  font-weight: 700;
+  text-align: left;
+  font-family: $primary-font-family;
+  @media #{$tablet_device} {
+    font-size: 16px;
+  }
+  @media #{$mobile_device} {
+    font-size: 14px;
+    padding: 0;
+  }
+}
+
+.checkoutButtonStyle:hover {
+  box-shadow: unset;
+}
+
+.checkoutCardRightContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: right;
+  align-items: flex-end;
+  flex: 1;
+  @media #{$mobile_device} {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.checkoutCardRightContainer h2 {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.checkoutCardCostStyle {
+  color: $medium-grey;
+  font-size: 2.2vmax;
+  font-weight: 600;
+}

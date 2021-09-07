@@ -1,0 +1,75 @@
+@import "stylesheets/variables.scss";
+@import "stylesheets/responsive.scss";
+
+$page-animDuration: 0.3s;
+
+.floatingLabelInput {
+  position: relative;
+  background: transparent;
+  text-align: left;
+  transition: all 0.2s ease;
+
+  .activeLabel {
+    top: -6px !important;
+    margin-left: 5px;
+    font-size: $small-font;
+    height: 19px;
+    color: $medium-grey;
+    @media #{$tablet_device} {
+      font-size: $small-font-tablet;
+    }
+    @media #{$mobile_device} {
+      font-size: $small-font-mobile;
+    }
+  }
+
+  .inactiveLabel {
+    font-size: $regular-font;
+    @media #{$tablet_device} {
+      font-size: $regular-font-tablet;
+    }
+    @media #{$mobile_device} {
+      font-size: 12px;
+    }
+  }
+
+  label {
+    position: absolute;
+    top: 1.1rem;
+    left: 0.3rem;
+    display: block;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    text-align: unset;
+    background: $white;
+    transition: $page-animDuration;
+    color: $medium-grey;
+    &:hover {
+      cursor: text;
+    }
+    @media #{$mobile_device} {
+      top: 0.9rem;
+    }
+  }
+  input {
+    width: 100%;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    padding: 0px 15px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    border: 1px solid $medium-grey;
+    border-radius: 4px;
+    font-size: $regular-font;
+    @media #{$tablet_device} {
+      font-size: $regular-font-tablet;
+    }
+    @media #{$mobile_device} {
+      font-size: $regular-font-mobile;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}

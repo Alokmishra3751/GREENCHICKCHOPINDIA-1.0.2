@@ -1,0 +1,79 @@
+{
+  "name": "green-chick-chop",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "classnames": "^2.2.6",
+    "firebase": "^7.16.0",
+    "formik": "^2.1.4",
+    "is-url-external": "^1.0.3",
+    "lodash": "^4.17.15",
+    "moment": "^2.27.0",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "qs": "^6.9.4",
+    "react": "^16.13.1",
+    "react-avatar-edit": "^0.8.3",
+    "react-cool-tabs": "^1.1.6",
+    "react-dom": "^16.13.1",
+    "react-gif-loader": "^0.6.0",
+    "react-icons": "^3.10.0",
+    "react-loader": "^2.4.7",
+    "react-places-autocomplete": "^7.2.1",
+    "react-redux": "^7.2.0",
+    "react-responsive-carousel": "^3.2.9",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-select": "^3.1.0",
+    "react-slick": "^0.28.1",
+    "react-toastify": "^6.0.8",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "slick-carousel": "^1.8.1",
+    "yup": "^0.29.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "homepage": "https://greenchickchopindia.com/",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": "error"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.3.8",
+    "prettier": "^2.3.2",
+    "pretty-quick": "^2.0.2"
+  }
+}

@@ -1,0 +1,70 @@
+@import "stylesheets/variables.scss";
+@import "stylesheets/responsive.scss";
+
+.accountHeaderContainer h4 {
+  color: $medium-grey;
+  font-weight: 600;
+  margin: 30px 35px;
+  text-transform: capitalize;
+  @media #{$tablet_device} {
+    margin: 30px 25px;
+  }
+  @media #{$mobile_device} {
+    margin: 30px 25px;
+  }
+}
+
+.linkContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px 25px;
+  height: 20%;
+  @media #{$tablet_device} {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  @media #{$mobile_device} {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.linkStyle {
+  width: 260px;
+  height: 60px;
+  background-color: $white;
+  margin: 12px 0;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: $dark-red;
+  border: 0;
+  font-weight: 600;
+  font-family: $primary-font-family;
+  border-radius: 0;
+  font-size: 22px;
+  box-shadow: $container-box-shadow;
+  cursor: pointer;
+  @media #{$tablet_device} {
+    font-size: 18px;
+    width: 175px;
+  }
+  @media #{$mobile_device} {
+    font-size: 14px;
+    width: 150px;
+    height: 45px;
+  }
+  @media (min-width: 0) and (max-width: 340px) {
+    width: 135px;
+  }
+}
+
+.linkBorder {
+  border-bottom: 4px solid $dark-red;
+}
+
+.linkStyle:hover {
+  color: $dark-red;
+}

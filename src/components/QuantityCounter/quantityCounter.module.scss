@@ -1,0 +1,55 @@
+@import "stylesheets/variables.scss";
+@import "stylesheets/responsive.scss";
+
+.quantityContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 320px;
+  @media #{$tablet_device} {
+    width: 260px;
+  }
+  @media #{$mobile_device} {
+    width: 220px;
+  }
+}
+
+.quantityContainer h4 {
+  margin: 0;
+  font-weight: 700;
+  font-size: $large-font;
+  @media #{$tablet_device} {
+    font-size: 18px;
+  }
+  @media #{$mobile_device} {
+    font-size: 16px;
+  }
+}
+
+.quantityBoxContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 50px;
+  font-size: $large-font;
+  font-family: 400;
+  border: $primary-border;
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  @media #{$tablet_device} {
+    font-size: 16px;
+    width: 45px;
+    height: 40px;
+  }
+  @media #{$mobile_device} {
+    font-size: 14px;
+    width: 38px;
+    height: 34px;
+  }
+}
+
+.quantityBoxContainer:hover {
+  border: 1px solid $dark-red;
+}

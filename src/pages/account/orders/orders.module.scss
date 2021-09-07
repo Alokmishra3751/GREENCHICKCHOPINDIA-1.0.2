@@ -1,0 +1,45 @@
+@import "stylesheets/variables.scss";
+@import "stylesheets/responsive.scss";
+
+.mainContainer {
+  display: flex;
+  margin-top: 50px;
+  @media #{$tablet_device} {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  @media #{$mobile_device} {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+}
+
+.orderContainer {
+  margin: 10px 0px 0px 80px;
+  width: 65%;
+  @media #{$tablet_device} {
+    margin: 20px auto;
+    width: 90%;
+  }
+  @media #{$mobile_device} {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+
+.orderContainer h3 {
+  color: $medium-grey;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 2px;
+  border-bottom: 1px solid $medium-grey;
+
+  @media #{$mobile_device} {
+    margin-left: 6px;
+  }
+}
+
+.alignCenter {
+  display: flex;
+  justify-content: center;
+}

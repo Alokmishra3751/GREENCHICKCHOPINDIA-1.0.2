@@ -1,0 +1,74 @@
+@import "stylesheets/variables.scss";
+@import "stylesheets/responsive.scss";
+
+.addressCardContainer {
+  width: inherit;
+  margin: 0 -20px;
+  min-height: 100px;
+  height: fit-content;
+  border: $primary-border;
+  cursor: pointer;
+  padding: 25px;
+  border-radius: 2px;
+
+  @media #{$mobile_device} {
+    padding: 15px 25px;
+  }
+}
+
+.addressNameStyle {
+  text-transform: capitalize;
+  @media #{$tablet_device} {
+    padding: 4px 0px;
+  }
+  @media #{$mobile_device} {
+    padding: 4px 0px;
+  }
+}
+
+.addressCardContainer:hover {
+  border-color: $primary-color;
+}
+
+.addressCardContainer h4 {
+  margin: 2px;
+  font-size: $normal-font;
+  font-family: $primary-font-family;
+  @media #{$tablet_device} {
+    font-size: $normal-font-table;
+  }
+  @media #{$mobile_device} {
+    font-size: $normal-font-mobile;
+  }
+}
+
+.addressCardAddressStyle {
+  font-weight: 600;
+  line-height: 1.67vmax;
+  text-transform: capitalize;
+  @media #{$tablet_device} {
+    font-size: 16px !important;
+    line-height: 22px;
+    font-weight: 400;
+  }
+  @media #{$mobile_device} {
+    font-size: 14px !important;
+    line-height: 22px;
+    font-weight: 400;
+  }
+}
+.addressCardLandmarkStyle {
+  font-weight: 600;
+  line-height: 1.67vmax;
+  text-transform: capitalize;
+  @media #{$tablet_device} {
+    padding: 4px 0px;
+    font-size: 16px !important;
+    line-height: 22px;
+  }
+  @media #{$mobile_device} {
+    padding: 4px 0px;
+    font-size: 14px !important;
+    line-height: 22px;
+  }
+}
