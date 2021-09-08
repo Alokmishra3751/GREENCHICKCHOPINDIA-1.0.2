@@ -31,4 +31,5 @@ deployToAWS:
     - master
   stage: deploy
   script:
+    - npm run build
     - bash deploy/deploy.sh
