@@ -1,0 +1,61 @@
+@import "stylesheets/variables.scss";
+@import "stylesheets/responsive.scss";
+
+.testimonialCardContainer {
+  width: 300px;
+  height: fit-content;
+  min-height: 300px;
+  border-radius: 10px;
+  box-shadow: $container-box-shadow;
+}
+
+.testimonialCardImageStyle {
+  width: 280px;
+  height: 160px;
+  margin: 10px 10px 5px 10px;
+}
+
+.testimonialCardContentStyle {
+  margin: 0px 10px;
+  padding: 5px;
+}
+
+.testimonialCardHeaderStyle {
+  display: flex;
+  align-items: center;
+}
+
+.testimonialCardAvatarStyle {
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+}
+
+.testimonialCardNameStyle {
+  font-weight: 600;
+  margin: 2px 10px;
+  font-size: $normal-font;
+  color: $black;
+  @media #{$tablet_device} {
+    font-size: $normal-font-table;
+  }
+  @media #{$mobile_device} {
+    font-size: $normal-font-mobile;
+  }
+}
+
+.testimonialCardDescriptionStyle {
+  font-family: $primary-font-family;
+  font-weight: 700;
+  margin: 15px 0px 10px 15px;
+  font-size: $regular-font;
+  color: $medium-grey;
+  @media #{$tablet_device} {
+    font-size: $regular-font-tablet;
+    font-weight: 600;
+  }
+  @media #{$mobile_device} {
+    font-size: $regular-font-mobile;
+    font-weight: 600;
+  }
+}
