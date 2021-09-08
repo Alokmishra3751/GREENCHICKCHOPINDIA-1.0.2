@@ -6,7 +6,9 @@ import Carousel from "./carousel";
 import CategoryList from "./categoryList";
 import TestimonialList from "./testimonialList";
 import Location from "./location";
+// eslint-disable-next-line
 import { toast } from "react-toastify";
+// eslint-disable-next-line
 import styles from "./home.module.scss";
 import "./toastStyle.css";
 

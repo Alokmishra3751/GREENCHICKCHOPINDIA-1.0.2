@@ -6,6 +6,7 @@ import image1 from "assets/images/wall (1).jpg";
 import image2 from "assets/images/wall (2).jpg";
 import image3 from "assets/images/wall (3).jpg";
 import image4 from "assets/images/landing2.jpg";
+// eslint-disable-next-line
 import ImageConstant from "utils/imageConstants";
 import Slider from "react-slick";
 import styles from "./home.module.scss";
