@@ -5,12 +5,15 @@ import QualityCheck from "./qualityCheck";
 import Carousel from "./carousel";
 import CategoryList from "./categoryList";
 import TestimonialList from "./testimonialList";
-import Location from "./location";
 // eslint-disable-next-line
 import { toast } from "react-toastify";
 // eslint-disable-next-line
 import styles from "./home.module.scss";
 import "./toastStyle.css";
+
+import image1 from "assets/images/veg.jpg";
+import image2 from "assets/images/non-veg.jpg";
+import image3 from "assets/images/both-food.jpg";
 
 import Constants from "utils/constants";
 class Home extends Component {
@@ -47,14 +50,40 @@ class Home extends Component {
     const { isVendorNotSelected } = this.state;
     return (
       <div>
-        {isVendorNotSelected && (
-          <Location
-            handleVendorToggle={this.handleVendorToggle}
-            isVendorNotSelected={isVendorNotSelected}
-          />
-        )}
+        
         <Carousel bannerPayload={bannerPayload} />
         <QualityCheck />
+        <div className="container bestItem">
+          <div className="section-title">
+            <h3>Choose Your Best Item</h3>
+          </div>
+          <div className="row">
+            <div className="col-md-4">
+              <div className="content">
+                <a href="veg.html">
+                <img src={image1} alt ="banner"/>
+                <h5>Veg Menu</h5>
+                </a>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="content">
+                <a href="nonVeg.html">
+                <img src={image2} alt ="item"/>
+                <h5>Non-Veg Menu</h5>
+                </a>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="content">
+                <a href="dualFood.html">
+                <img src={image3} alt ="food"/>
+                <h5>Taste For both</h5>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
         {productPayload && productPayload.length !== 0 && (
           <ProductList
             categoryType="Best Selling"

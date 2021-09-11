@@ -3,7 +3,6 @@
 
 .headerContainer {
   width: 100%;
-  height: 60px;
   background-color: $primary-color;
   display: flex;
   align-items: center;
@@ -13,9 +12,74 @@
   z-index: 999999;
 }
 
+.locationContainer {
+  overflow: unset;
+  z-index: 999;
+  
+  width: 100%;
+  
+}
+
+.searchLocationContainer {
+  margin: 0px auto;
+  text-align: center;
+}
+
+.searchLocationContainer .inputField{
+  background:#fff;
+  border-radius:0;
+  min-width:700px;
+}
+
+.searchLocationContainer h1 {
+  color: $white;
+  margin:0;
+  font-size:20px;
+}
+
+.suggestionContainerStyle {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  position:absolute;
+  top:100%;
+  background:#fff;
+  min-width:700px;
+}
+
+.suggestionDownStyle {
+  text-align: center;
+  padding:20px  30px;
+  width:100%;
+  position: relative;
+  background-color: $alice-blue;
+  border-bottom: 1px solid $light-grey;
+  border-left: 1px solid $light-grey;
+  border-right: 1px solid $light-grey;
+  @media #{$mobile_device} {
+    width: 260px;
+    height: 46px;
+  }
+}
+
+
+.inputField {
+  width: 400px;
+  height: 50px;
+  padding: 0px 10px;
+  border-radius: 4px;
+  position: relative;
+  background-color: $alice-blue;
+  border: 1px solid $light-grey;
+  @media #{$mobile_device} {
+    width: 260px;
+    height: 46px;
+  }
+}
+
+
 .primaryIconStyle {
-  width: 40px;
-  height: 40px;
+  max-width:100px;
   padding: 10px 25px;
   @media #{$tablet_device} {
     width: 160px;

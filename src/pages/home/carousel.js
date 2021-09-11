@@ -21,7 +21,7 @@ class BannerSlider extends React.Component {
       slidesToScroll:1,
       dots:true,
       fade:true,
-      autoPlay:true,
+      autoplay:true,
       speed:900,
       className: 'TheSlickSlide'
     }
@@ -30,37 +30,45 @@ class BannerSlider extends React.Component {
         <div>
           <div className={styles.slideContent}>
             <img src={image1} alt ="banner"/>
-            <div className={styles.Content}>
-              <h2>Green Chick Chop</h2>
-              <p>Talk about food just as much as you eat it, you're in good company. We've got famous chefs and stars—Julia Child, Sophia Loren, Virginia Woolf—to thank for some of the greatest food quotes of all time. Do what you will with these: Memorize them, pin them, or print them out and tack them up all over your kitchen.</p>
-            </div>
+            
+              <div className={styles.Content}>
+                <h2>Get Your Wings Fresh and Delicious</h2>
+                <p>Talk about food just as much as you eat it, you're in good company. We've got famous chefs and stars—Julia Child, Sophia Loren, Virginia Woolf—to thank for some of the greatest food quotes of all time. Do what you will with these: Memorize them, pin them, or print them out and tack them up all over your kitchen.</p>
+              </div>  
+            
           </div>
         </div>
         <div>
           <div className={styles.slideContent}>
             <img src={image2} alt ="banner"/>
-            <div className={styles.Content}>
-              <h2>We Delivery Fresh and healthy</h2>
-              <p>Talk about food just as much as you eat it, you're in good company. We've got famous chefs and stars—Julia Child, Sophia Loren, Virginia Woolf—to thank for some of the greatest food quotes of all time. Do what you will with these: Memorize them, pin them, or print them out and tack them up all over your kitchen.</p>
+            <div className="container">
+              <div className={styles.Content}>
+                <h2>The Chickan Superimo and Wings Chun</h2>
+                <p>Talk about food just as much as you eat it, you're in good company. We've got famous chefs and stars—Julia Child, Sophia Loren, Virginia Woolf—to thank for some of the greatest food quotes of all time. Do what you will with these: Memorize them, pin them, or print them out and tack them up all over your kitchen.</p>
+              </div>
             </div>
           </div>
         </div>
         <div>
           <div className={styles.slideContent}>
             <img src={image3} alt ="banner"/>
+           
             <div className={styles.Content}>
-              <h2>Green Chick Chop</h2>
+              <h2>Green Chick Chop - Healthy and Fresh</h2>
               <p>Talk about food just as much as you eat it, you're in good company. We've got famous chefs and stars—Julia Child, Sophia Loren, Virginia Woolf—to thank for some of the greatest food quotes of all time. Do what you will with these: Memorize them, pin them, or print them out and tack them up all over your kitchen.</p>
             </div>
+           
           </div>
         </div>
         <div>
           <div className={styles.slideContent}>
             <img src={image4} alt ="banner"/>
+            
             <div className={styles.Content}>
               <h2>Green Chick Chop</h2>
               <p>Talk about food just as much as you eat it, you're in good company. We've got famous chefs and stars—Julia Child, Sophia Loren, Virginia Woolf—to thank for some of the greatest food quotes of all time. Do what you will with these: Memorize them, pin them, or print them out and tack them up all over your kitchen.</p>
             </div>
+            
           </div>
         </div>
       </Slider>

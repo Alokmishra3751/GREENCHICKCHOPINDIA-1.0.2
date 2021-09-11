@@ -7,7 +7,7 @@ import LocationSearchInput from "./locationSearchInput";
 
 import { getVendorAction, spinnerAction } from "actions";
 
-import styles from "./home.module.scss";
+import styles from "./header.module.scss";
 
 class Location extends Component {
   render() {
@@ -18,7 +18,7 @@ class Location extends Component {
         vendorPayload?.success &&
         vendorPayload?.result?.result.length !== 0 ? (
           <div className={styles.vendorContainer}>
-            <h1>Choose a preferred vendor</h1>
+            
             <VendorList
               handleVendorToggle={this.props.handleVendorToggle}
               vendorPayload={vendorPayload && vendorPayload?.result?.result}
@@ -28,7 +28,7 @@ class Location extends Component {
           <>
             <div className={styles.locationContainer}>
               <div className={styles.searchLocationContainer}>
-                <h1>Select Your Location</h1>
+                
                 <LocationSearchInput
                   getVendorAction={getVendorAction}
                   spinnerAction={spinnerAction}

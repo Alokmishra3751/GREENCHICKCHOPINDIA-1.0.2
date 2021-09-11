@@ -182,29 +182,6 @@
   }
 }
 
-.locationContainer {
-  overflow: unset;
-  position: absolute;
-  z-index: 999;
-  background-color: rgba(0, 0, 0, 0.9);
-  width: 100%;
-  top:160px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 20px;
-  
-}
-
-.searchLocationContainer {
-  margin: 0px auto;
-  text-align: center;
-}
-
-.searchLocationContainer h1 {
-  color: $white;
-  margin:0;
-}
-
 .inputField {
   width: 400px;
   height: 50px;
@@ -220,7 +197,6 @@
   }
 }
 
-
 .slideContent{
   position:relative;
   overflow:hidden;
@@ -233,21 +209,24 @@
   left:0;
   width:100%;
   height:100%;
+  padding:0 50px;
   display:flex;
   flex-direction:column;
   justify-content:center;
-  align-items:center;
-  text-align:center;
+  align-items:flex-start;
   background-color:rgba(0,0,0,0.4);
 }
 
 .slideContent .Content h2{
   font-size:70px;
   color:#fff;
-  max-width:700px;
-  line-height:1.2em;
-  margin-bottom:10px;
+  max-width:750px;
+  
 }
+.slideContent .Content h2:nth-last-word(3){
+  color:#ea1a20;
+}
+
 .TheSlickSlider .slick-dots{
   position:absolute;
   bottom:0;
@@ -267,24 +246,3 @@
   line-height:1.4em;
 }
 
-.dropDownContainerStyle {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.dropDownStyle {
-  text-align: center;
-  width: 400px;
-  height: 50px;
-  padding: 0px 10px;
-  position: relative;
-  background-color: $alice-blue;
-  border-bottom: 1px solid $light-grey;
-  border-left: 1px solid $light-grey;
-  border-right: 1px solid $light-grey;
-  @media #{$mobile_device} {
-    width: 260px;
-    height: 46px;
-  }
-}

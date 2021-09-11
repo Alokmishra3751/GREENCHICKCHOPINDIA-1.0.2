@@ -4,7 +4,7 @@ import PlacesAutocomplete, {
   getLatLng,
 } from "react-places-autocomplete";
 
-import styles from "./home.module.scss";
+import styles from "./header.module.scss";
 
 export default class LocationSearchInput extends React.Component {
   constructor(props) {
@@ -53,18 +53,18 @@ export default class LocationSearchInput extends React.Component {
           <div key={index}>
             <input
               {...getInputProps({
-                placeholder: "Search Places ...",
+                placeholder: "Search a store near by...",
                 className: styles.inputField,
               })}
             />
-            <div className={styles.dropDownContainerStyle}>
+            <div className={styles.suggestionContainerStyle}>
               {loading && (
-                <div className={styles.dropDownStyle}>Loading...</div>
+                <div className={styles.suggestionDownStyle}>Loading...</div>
               )}
               {suggestions.map((suggestion, index) => {
                 const className = suggestion.active
-                  ? styles.dropDownStyle
-                  : styles.dropDownStyle;
+                  ? styles.suggestionDownStyle
+                  : styles.suggestionDownStyle;
                 // inline style for demonstration purpose
                 const style = suggestion.active
                   ? {

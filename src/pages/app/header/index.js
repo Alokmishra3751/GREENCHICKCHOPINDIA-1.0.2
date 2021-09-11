@@ -7,9 +7,10 @@ import { MdAccountCircle } from "react-icons/md";
 import { FaUserAlt, FaHome } from "react-icons/fa";
 
 import { clearVendorInfoAction, setVendorIdAction } from "actions";
-
+// eslint-disable-next-line
+import VendorList from "./vendorList";
 import Link from "components/Link";
-import SearchBar from "components/SearchBar";
+import Location from "./location";
 import Button from "components/Button";
 
 import { isVendorSelected } from "utils/helperFucntion";
@@ -88,7 +89,16 @@ class Header extends Component {
     );
   };
 
-  renderSearchBar = () => <SearchBar />;
+  renderSearchBar = () => ( <div>{isVendorSelected && (
+          <Location
+            handleVendorToggle={this.handleVendorToggle}
+            isVendorSelected={isVendorSelected}
+          />
+        )}
+        </div>
+
+      );
+
 
   renderCartValue = () => {
     const { checkoutList } = this.props;
