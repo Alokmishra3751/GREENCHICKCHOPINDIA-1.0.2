@@ -28,8 +28,10 @@
 .searchLocationContainer .inputField{
   background:#fff;
   border-radius:0;
-  min-width:700px;
+  min-width:400px;
 }
+
+
 
 .searchLocationContainer h1 {
   color: $white;
@@ -44,7 +46,7 @@
   position:absolute;
   top:100%;
   background:#fff;
-  min-width:700px;
+  min-width:400px;
 }
 
 .suggestionDownStyle {
@@ -346,13 +348,12 @@
 
 .bottomNavigationContainer {
   position: fixed;
-  top: 60px;
+  top: 70px;
   z-index: 999;
   display: flex;
   width: 100%;
   justify-content: space-around;
-  height: 45px;
-  border-bottom: 1px solid rgba(214, 18, 24, 0.4);
+  
   box-shadow: 0px 6px 16px 2px rgba(73, 71, 71, 0.4);
   @media #{$mobile_device} {
     height: unset;
@@ -367,6 +368,7 @@
   width: 100%;
   justify-content: center;
   border: 0px;
+  padding:20px 0;
   background-color: $white;
   outline: none;
   @media #{$mobile_device} {
@@ -382,8 +384,8 @@
 }
 
 .navButtonImageStyle {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
 }
 .navButtonTextStyle {
   @media #{$mobile_device} {
@@ -392,10 +394,10 @@
 }
 .navButtonStyle h5 {
   padding-left: 8px;
+  margin-bottom:0;
   text-transform: uppercase;
-  font-weight: 800;
-  font-size: 12px;
-  font-family: $primary-font-family;
+  font-weight: 600;
+  font-size: 13px;
   @media #{$tablet_device} {
     font-size: 12px;
   }

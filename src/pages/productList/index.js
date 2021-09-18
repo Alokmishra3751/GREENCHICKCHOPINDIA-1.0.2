@@ -27,7 +27,7 @@ class ProductList extends Component {
     this.state = {
       productPayload: [],
       loader: false,
-      height: 0,
+      height:0
     };
   }
   onClickSuccess = (productPayload) => {

@@ -45,10 +45,10 @@ class App extends Component {
 
     this.updateWindowDimensions();
 
-    if (vendorId && vendorId !== null) {
+   
       getProductCategoryAction(vendorId, () => {});
       getProductItemAction(vendorId, () => {});
-    }
+   
 
     bannerAction();
     testimonialAction();

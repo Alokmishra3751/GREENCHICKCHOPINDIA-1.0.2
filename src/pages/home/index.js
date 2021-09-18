@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import ProductList from "pages/productList";
-import QualityCheck from "./qualityCheck";
+
 import Carousel from "./carousel";
 import CategoryList from "./categoryList";
 import TestimonialList from "./testimonialList";
@@ -10,7 +10,8 @@ import { toast } from "react-toastify";
 // eslint-disable-next-line
 import styles from "./home.module.scss";
 import "./toastStyle.css";
-
+// eslint-disable-next-line
+import Location from "pages/app/header/location";
 import image1 from "assets/images/veg.jpg";
 import image2 from "assets/images/non-veg.jpg";
 import image3 from "assets/images/both-food.jpg";
@@ -20,7 +21,7 @@ class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isVendorNotSelected: false,
+      isVendorNotSelected: false
     };
   }
 
@@ -47,49 +48,54 @@ class Home extends Component {
 
   render() {
     const { bannerPayload, productPayload } = this.props;
-    const { isVendorNotSelected } = this.state;
+     
     return (
       <div>
         
         <Carousel bannerPayload={bannerPayload} />
-        <QualityCheck />
-        <div className="container bestItem">
-          <div className="section-title">
-            <h3>Choose Your Best Item</h3>
+       
+        <div className={styles.sectionPadding}>
+          <div className="container">
+            <div className={styles.sectionTitle}>
+              <h3>Choose Your Best Item</h3>
+            </div>
+            <div className="row">
+              <div className="col-md-4">
+                <div className={styles.bestItem}>
+                  <a href="veg.html">
+                  <img src={image1} alt ="banner"/>
+                  <h5>Veg Menu</h5>
+                  </a>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className={styles.bestItem}>
+                  <a href="nonVeg.html">
+                  <img src={image2} alt ="item"/>
+                  <h5>Non-Veg Menu</h5>
+                  </a>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className={styles.bestItem}>
+                  <a href="dualFood.html">
+                  <img src={image3} alt ="food"/>
+                  <h5>Taste For both</h5>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="row">
-            <div className="col-md-4">
-              <div className="content">
-                <a href="veg.html">
-                <img src={image1} alt ="banner"/>
-                <h5>Veg Menu</h5>
-                </a>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="content">
-                <a href="nonVeg.html">
-                <img src={image2} alt ="item"/>
-                <h5>Non-Veg Menu</h5>
-                </a>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="content">
-                <a href="dualFood.html">
-                <img src={image3} alt ="food"/>
-                <h5>Taste For both</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+       
+       <div className={styles.ProductList}/>
         {productPayload && productPayload.length !== 0 && (
           <ProductList
-            categoryType="Best Selling"
+            categoryType="Available items"
             suggestedProduct={productPayload}
           />
         )}
+        </div>
+
         <CategoryList />
         <TestimonialList />
       </div>
