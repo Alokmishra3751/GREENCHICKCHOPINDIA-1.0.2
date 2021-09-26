@@ -8,6 +8,8 @@ import profileIcon from "assets/icons/profile.png";
 import defaultAvatar from "assets/icons/defaultAvatar.png";
 import landingOne from "assets/images/landing1.jpg";
 import landingTwo from "assets/images/landing2.jpg";
+import landingthree from "assets/images/landing3.jpg";
+import landingfour from "assets/images/landing4.jpg";
 import spinner from "assets/Spinner.gif";
 
 export default {
@@ -20,5 +22,7 @@ export default {
   AVATAR_ICON: defaultAvatar,
   LANDING_ONE_ICON: landingOne,
   LANDING_TWO_ICON: landingTwo,
+  LANDING_THREE_ICON: landingthree,
+  LANDING_FOUR_ICON: landingfour,
   SPINNER: spinner,
 };

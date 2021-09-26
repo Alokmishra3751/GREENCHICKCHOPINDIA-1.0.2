@@ -1,15 +1,14 @@
 @import "stylesheets/responsive.scss";
 
 .productMainContainer {
-  margin: 20px;
+  padding:60px 0;
   @media #{$mobile_device} {
     margin: 0px;
   }
 }
 
 .productMainContainer h3 {
-  margin: 16px 0px;
-  margin-top: 60px;
+  margin-bottom:40px;
   //Update
   @media #{$mobile_device} {
     // padding-left: 30px;

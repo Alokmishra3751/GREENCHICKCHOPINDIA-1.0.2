@@ -3,6 +3,7 @@
 
 .headerContainer {
   width: 100%;
+  padding:5px 10px;
   background-color: $primary-color;
   display: flex;
   align-items: center;
@@ -12,77 +13,10 @@
   z-index: 999999;
 }
 
-.locationContainer {
-  overflow: unset;
-  z-index: 999;
-  
-  width: 100%;
-  
-}
-
-.searchLocationContainer {
-  margin: 0px auto;
-  text-align: center;
-}
-
-.searchLocationContainer .inputField{
-  background:#fff;
-  border-radius:0;
-  min-width:400px;
-}
-
-
-
-.searchLocationContainer h1 {
-  color: $white;
-  margin:0;
-  font-size:20px;
-}
-
-.suggestionContainerStyle {
-  display: flex;
-  flex-direction: column;
-  align-items:flex-start;
-  position:absolute;
-  top:100%;
-  background:#fff;
-  min-width:400px;
-}
-
-.suggestionDownStyle {
-  text-align: center;
-  padding:20px  30px;
-  width:100%;
-  position: relative;
-  background-color: $alice-blue;
-  border-bottom: 1px solid $light-grey;
-  border-left: 1px solid $light-grey;
-  border-right: 1px solid $light-grey;
-  @media #{$mobile_device} {
-    width: 260px;
-    height: 46px;
-  }
-}
-
-
-.inputField {
-  width: 400px;
-  height: 50px;
-  padding: 0px 10px;
-  border-radius: 4px;
-  position: relative;
-  background-color: $alice-blue;
-  border: 1px solid $light-grey;
-  @media #{$mobile_device} {
-    width: 260px;
-    height: 46px;
-  }
-}
-
-
 .primaryIconStyle {
-  max-width:100px;
-  padding: 10px 25px;
+  width: 40px;
+  height: 40px;
+ 
   @media #{$tablet_device} {
     width: 160px;
   }
@@ -127,15 +61,12 @@
 
 .navContainer {
   color: $white;
-  position: absolute;
-  right: 0;
   display: flex;
-  flex: 1;
   height: inherit;
   align-items: center;
-  width: 22%;
-  margin-right: 45px;
-  justify-content: space-between;
+  width:100%;
+  padding:0 30px;
+  justify-content:flex-end;
   font-weight: 600;
   @media #{$tablet_device} {
     display: none;
@@ -198,6 +129,7 @@
 .cartItemTextStyle {
   font-size: 10px;
   font-weight: 700;
+  margin-bottom:0;
   font-family: $primary-font-family;
   color: black;
 }
@@ -296,10 +228,11 @@
   }
 }
 
+
 .navTextStyle {
   font-size: $normal-font;
   color: $white;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.6px;
   height: inherit;
   display: flex;
@@ -338,22 +271,31 @@
 .centerNavElement {
   display: flex;
   align-items: center;
+  justify-content:space-between;
+  
+}
+.centerNavElement div{
+  margin-right:20px;
+  align-items:center;
+}
+.centerNavElement div.cartIconContainerForWeb{
+    margin-right:0;
 }
 
 .centerNavElement span {
-  margin: 0px 6px;
+ 
+  display:inline-block;
   font-size: 28px;
   font-weight: 400;
 }
 
 .bottomNavigationContainer {
   position: fixed;
-  top: 70px;
   z-index: 999;
   display: flex;
   width: 100%;
   justify-content: space-around;
-  
+  border-bottom: 1px solid rgba(214, 18, 24, 0.4);
   box-shadow: 0px 6px 16px 2px rgba(73, 71, 71, 0.4);
   @media #{$mobile_device} {
     height: unset;
@@ -368,7 +310,6 @@
   width: 100%;
   justify-content: center;
   border: 0px;
-  padding:20px 0;
   background-color: $white;
   outline: none;
   @media #{$mobile_device} {
@@ -386,6 +327,9 @@
 .navButtonImageStyle {
   width: 30px;
   height: 30px;
+  filter: contrast(500%);
+-webkit-filter: contrast(500%);
+-moz-filter: contrast(500%);
 }
 .navButtonTextStyle {
   @media #{$mobile_device} {
@@ -394,10 +338,11 @@
 }
 .navButtonStyle h5 {
   padding-left: 8px;
-  margin-bottom:0;
+  margin:20px 0;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 14px;
+  font-family: $primary-font-family;
   @media #{$tablet_device} {
     font-size: 12px;
   }
@@ -426,3 +371,78 @@
   color: $white;
   text-decoration: underline;
 }
+
+.locationContainer {
+ margin:0 20px;
+  z-index: 999;
+  width: 100%;
+ 
+}
+
+.searchLocationContainer {
+    
+   position:relative;
+
+}
+
+
+.searchLocationContainer input{
+  background:transparent;
+  border-bottom:2px solid #fff;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-radius:0;
+}
+.searchLocationContainer input::placeholder{
+  color:#fff;
+  opacity:.8;
+  font-size:16px;
+
+}
+
+.inputField {
+  width: 250px;
+  height: 40px;
+  color:#fff;
+  padding: 0;
+  position: relative;
+  @media #{$mobile_device} {
+    width: 260px;
+    height: 46px;
+  }
+ 
+}
+.inputField:focus-visible{
+  
+  outline:0 !important;
+
+
+}
+
+.dropDownContainerStyle {
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: column;
+  align-items: center;
+  position:absolute;
+  top:110%;
+  left:0;
+}
+
+.dropDownStyle {
+  text-align: center;
+  width: 250px;
+  height: 40px;
+  padding: 0px 10px;
+  position: relative;
+  background-color: $alice-blue;
+  border-bottom: 1px solid $light-grey;
+  border-left: 1px solid $light-grey;
+  border-right: 1px solid $light-grey;
+  @media #{$mobile_device} {
+    width: 260px;
+    height: 46px;
+  }
+}
+

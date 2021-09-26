@@ -4,7 +4,7 @@ import PlacesAutocomplete, {
   getLatLng,
 } from "react-places-autocomplete";
 
-import styles from "./header.module.scss";
+import styles from "./home.module.scss";
 
 export default class LocationSearchInput extends React.Component {
   constructor(props) {
@@ -53,7 +53,7 @@ export default class LocationSearchInput extends React.Component {
           <div key={index}>
             <input
               {...getInputProps({
-                placeholder: "Search a store near....",
+                placeholder: "Search Places ...",
                 className: styles.inputField,
               })}
             />

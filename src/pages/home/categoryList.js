@@ -16,10 +16,10 @@ class CategoryList extends Component {
         {categoryState && categoryState !== undefined && (
           <div className={styles.categoryListMainContainer}>
             <div className={styles.mainWrapContainer}>
-              <div className={styles.categoryCardWrapContainer}>
+              <div className={styles.categoryTitle}>
                 <h3>Explore by Category</h3>
               </div>
-              <div className={styles.categoryCardWrapContainer}>
+              <div className={styles.categoryText}>
                 <p>Everything we have. Everything you need.</p>
               </div>
               <div className={styles.categoryCardWrapContainer}>

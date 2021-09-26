@@ -3,12 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@popperjs/core": "^2.10.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
-    "bootstrap": "^5.1.1",
     "classnames": "^2.2.6",
     "firebase": "^7.16.0",
     "formik": "^2.1.4",
@@ -35,12 +33,11 @@
     "react-toastify": "^6.0.8",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
-    "slick-carousel": "^1.8.1",
     "yup": "^0.29.1"
   },
   "scripts": {
-    "start": "react-scripts  start",
-    "build": "react-scripts  build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -75,7 +72,7 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.3.8",
-    "prettier": "^2.3.2",
-    "pretty-quick": "^2.0.2"
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1"
   }
 }

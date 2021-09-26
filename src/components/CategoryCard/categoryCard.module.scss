@@ -2,9 +2,11 @@
 @import "stylesheets/responsive.scss";
 
 .categoryCardContainer {
-  width: 280px;
-  height: 200px;
+  width: 300px;
+  height: 250px;
   cursor: pointer;
+  margin-bottom:30px;
+  
   position: relative;
   @media #{$mobile_device} {
     width: 90px;
@@ -18,7 +20,7 @@
 
 .categoryCardContentStyle {
   width: inherit;
-  height: 60px;
+  height: 80px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -48,9 +50,9 @@
 }
 
 .categoryCardTitleStyle {
-  font-weight: 800;
+  font-weight: 600;
   margin: 2px;
-  font-size: $normal-font;
+  font-size: 22px;
   @media #{$tablet_device} {
     font-size: $small-font-mobile;
   }
@@ -60,9 +62,9 @@
 }
 
 .categoryCardSubTitleStyle {
-  font-weight: 600;
+  font-weight: 500;
   margin: 2px;
-  font-size: $small-font;
+  font-size:14px;
   @media #{$tablet_device} {
     font-size: $small-font-tablet;
   }

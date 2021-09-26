@@ -7,16 +7,15 @@ import { MdAccountCircle } from "react-icons/md";
 import { FaUserAlt, FaHome } from "react-icons/fa";
 
 import { clearVendorInfoAction, setVendorIdAction } from "actions";
-// eslint-disable-next-line
-import VendorList from "./vendorList";
+
 import Link from "components/Link";
-import Location from "./location";
+import SearchBar from "components/SearchBar";
 import Button from "components/Button";
 
 import { isVendorSelected } from "utils/helperFucntion";
 import imageConstants from "utils/imageConstants";
 import config from "utils/config";
-
+import Location from "./location";
 import NavigationBar from "./navigationBar";
 import styles from "./header.module.scss";
 
@@ -89,16 +88,8 @@ class Header extends Component {
     );
   };
 
-  renderSearchBar = () => ( <div>{isVendorSelected && (
-          <Location
-            handleVendorToggle={this.handleVendorToggle}
-            isVendorSelected={isVendorSelected}
-          />
-        )}
-        </div>
-
-      );
-
+  renderSearchBar = () => <SearchBar />;
+  renderLocation = () => <Location />;
 
   renderCartValue = () => {
     const { checkoutList } = this.props;
@@ -149,7 +140,7 @@ class Header extends Component {
             Sign Up
           </Link>
         </div>
-        <span className={styles.slashStyle}> / </span>
+        
         <div
           style={{ display: "flex" }}
           onClick={!isHidden ? this.toggleSettings : undefined}
@@ -252,6 +243,7 @@ class Header extends Component {
       <>
         <div className={styles.headerContainer}>
           {this.renderLogoAndButton()}
+          {this.renderLocation()}
           {this.renderSearchBar()}
           {this.renderRightNavBar()}
         </div>

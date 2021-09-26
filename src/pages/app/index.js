@@ -31,9 +31,9 @@ class App extends Component {
   }
 
   componentDidMount() {
-    // Below two line need to be removed when app goes live
-    // localStorage.setItem(config.VENDOR_ID, "5f0dbec3b0d1a2616e895f96");
-    document.body.style.overflowY = "unset";
+    //  Below two line need to be removed when app goes live
+    //  localStorage.setItem(config.VENDOR_ID, "5f0dbec3b0d1a2616e895f96");
+    // document.body.style.overflowY = "unset";
 
     const {
       getProductCategoryAction,
@@ -48,16 +48,16 @@ class App extends Component {
    
       getProductCategoryAction(vendorId, () => {});
       getProductItemAction(vendorId, () => {});
-   
+  
 
     bannerAction();
     testimonialAction();
     window.addEventListener("resize", this.updateWindowDimensions);
   }
 
-  componentWillUnmount() {
-    window.removeEventListener("resize", this.updateWindowDimensions);
-  }
+  // componentWillUnmount() {
+  //   window.removeEventListener("resize", this.updateWindowDimensions);
+  // }
 
   updateWindowDimensions = () => this.setState({ height: window.innerHeight });
 
