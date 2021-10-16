@@ -11,11 +11,11 @@ import { clearVendorInfoAction, setVendorIdAction } from "actions";
 import Link from "components/Link";
 import SearchBar from "components/SearchBar";
 import Button from "components/Button";
-
+import Location from "./location";
 import { isVendorSelected } from "utils/helperFucntion";
 import imageConstants from "utils/imageConstants";
 import config from "utils/config";
-import Location from "./location";
+
 import NavigationBar from "./navigationBar";
 import styles from "./header.module.scss";
 
@@ -24,6 +24,7 @@ class Header extends Component {
     super(props);
     this.state = {
       isHidden: true,
+     
     };
     this.wrapperRef = React.createRef();
     this.handleClickOutside = this.handleClickOutside.bind(this);
@@ -59,6 +60,7 @@ class Header extends Component {
 
     return (
       <>
+
         <Link className={styles.navTextStyle} to="/">
           <FaHome className={styles.homeIconStyle} color="white" />
 
@@ -88,8 +90,11 @@ class Header extends Component {
     );
   };
 
+
+  
+
   renderSearchBar = () => <SearchBar />;
-  renderLocation = () => <Location />;
+  
 
   renderCartValue = () => {
     const { checkoutList } = this.props;
@@ -102,6 +107,16 @@ class Header extends Component {
       </div>
     );
   };
+
+  static getDerivedStateFromProps(nextProps) {
+    return {
+      isVendorNotSelected: nextProps.vendorId !== undefined ? false : true,
+    };
+  }
+
+  handleVendorToggle = () => this.setState({ isVendorNotSelected:true});
+
+ 
 
   renderLoggedInHeader = () => (
     <div
@@ -231,6 +246,10 @@ class Header extends Component {
     );
   };
 
+
+ 
+
+
   render() {
     const {
       location: { pathname },
@@ -238,12 +257,22 @@ class Header extends Component {
 
     const regex = /^(\/product|\/category|^\/$)/;
     const shouldVisibleNavBar = regex.test(pathname);
+    
+     
+    const { isVendorNotSelected } = this.state;
 
     return (
       <>
+       
         <div className={styles.headerContainer}>
           {this.renderLogoAndButton()}
-          {this.renderLocation()}
+           {isVendorNotSelected && (
+          <Location
+            handleVendorToggle={this.handleVendorToggle}
+            isVendorNotSelected={isVendorNotSelected}
+          />
+          
+        )}
           {this.renderSearchBar()}
           {this.renderRightNavBar()}
         </div>
@@ -254,12 +283,12 @@ class Header extends Component {
 }
 
 const mapStateToProps = ({ vendorReducer, checkoutListReducer }) => {
-  const seletedVendorId = isVendorSelected();
+  const selectedVendorId = isVendorSelected();
 
   const getVendor =
     vendorReducer?.vendorPayload &&
     vendorReducer?.vendorPayload?.result?.result.filter(
-      (vendor) => vendor[0].user_id._id === seletedVendorId
+      (vendor) => vendor[0].user_id._id === selectedVendorId
     );
 
   let address;

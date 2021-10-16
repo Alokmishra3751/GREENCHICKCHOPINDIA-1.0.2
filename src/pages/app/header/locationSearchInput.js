@@ -13,7 +13,7 @@ export default class LocationSearchInput extends React.Component {
   }
 
   componentDidMount() {
-    document.body.style.overflowY = "hidden";
+    document.body.style.overflowY = "scroll";
   }
 
   handleChange = (address) => {

@@ -3,10 +3,11 @@
 @import "stylesheets/responsive.scss";
 
 .mainVendorCardContainer {
-  margin-top: 60px;
-  width: 85%;
+  margin-top: 10px;
+  width:auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 280px);
+  margin:0 20px;
+  grid-template-columns: repeat(auto-fill, 180px);
   grid-gap: 40px;
   justify-content: center;
   @media #{$tablet_device} {
@@ -18,12 +19,11 @@
 }
 
 .vendorListCardContainer {
-  min-height: 180px;
+  min-height: 80px;
   height: fit-content;
-  border: $primary-border;
   cursor: pointer;
   border-radius: 2px;
-  background-color: $white;
+  
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -31,8 +31,8 @@
 }
 
 .vendorListNameStyle {
-  font-size: 15px;
-  color: #607d8b;
+  font-size: 14px;
+  color: #fff;
   text-align: center;
 }
 
@@ -42,8 +42,8 @@
 
 .vendorListCardContainer h4 {
   margin: 2px;
-  // font-size: $large-font;
-  font-size: 16px;
+  font-weight:600;
+  font-size: 14px;
   font-family: $primary-font-family;
   @media #{$tablet_device} {
     font-size: $large-font-tablet;

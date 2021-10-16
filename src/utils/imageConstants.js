@@ -10,6 +10,10 @@ import landingOne from "assets/images/landing1.jpg";
 import landingTwo from "assets/images/landing2.jpg";
 import landingthree from "assets/images/landing3.jpg";
 import landingfour from "assets/images/landing4.jpg";
+import Veg from "assets/images/veg.jpg";
+import  NonVeg from "assets/images/non-veg.jpg";
+import DualFlavour from "assets/images/both-food.jpg";
+
 import spinner from "assets/Spinner.gif";
 
 export default {
@@ -24,5 +28,8 @@ export default {
   LANDING_TWO_ICON: landingTwo,
   LANDING_THREE_ICON: landingthree,
   LANDING_FOUR_ICON: landingfour,
+  NON_VEG_MENU: NonVeg,
+  VEG_MENU:Veg,
+  DUAL_FLAVOUR:DualFlavour,
   SPINNER: spinner,
 };

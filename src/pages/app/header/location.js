@@ -13,12 +13,12 @@ class Location extends Component {
   render() {
     const { vendorPayload, getVendorAction, spinnerAction } = this.props;
     return (
-      <div>
+      <div className={styles.storeLocationWrap}>
         {vendorPayload !== undefined &&
         vendorPayload?.success &&
         vendorPayload?.result?.result.length !== 0 ? (
           <div className={styles.vendorContainer}>
-            <h1>Choose a preferred vendor</h1>
+            
             <VendorList
               handleVendorToggle={this.props.handleVendorToggle}
               vendorPayload={vendorPayload && vendorPayload?.result?.result}
@@ -48,11 +48,12 @@ const mapDispatchToProps = {
 };
 
 const mapStateToProps = ({ vendorReducer }, props) => {
-  document.body.style.overflowY = props.isVendorSelected
-    ? "scroll"
+ 
+  document.body.style.overflowY = props.isVendorNotSelected
+    ? "hidden"
     : "unset";
   return {
-    vendorPayload: vendorReducer?.vendorPayload,
+    vendorPayload: vendorReducer?.vendorPayload
   };
 };
 
