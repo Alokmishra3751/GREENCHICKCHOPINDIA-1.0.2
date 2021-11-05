@@ -1,0 +1,985 @@
+[
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883598,
+    "name": " RAJOURI GARDEN",
+    "phone": "9811180759",
+    "tagsvalue": "RAJOURI GARDEN,Delhi,New Delhi",
+    "tags": [
+      {
+        "tag": "RAJOURI GARDEN"
+      },
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "New Delhi"
+      }
+    ],
+    "address": "Shop No. 6 DDA LIG Market, Near Cambridge School, Rajouri Garden New Delhi",
+    "country": "India",
+    "state": "Delhi",
+    "city": "DELHI"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8888323,
+    "name": " SHALIMAR BAGH",
+    "tagsvalue": "SHALIMAR BAGH,Delhi",
+    "tags": [
+      {
+        "tag": "SHALIMAR BAGH"
+      },
+      {
+        "tag": "Delhi"
+      }
+    ],
+    "address": "GROUND FLOUR,AA-19, SHALIMAR BAGH, NORTH WEST DELHI",
+    "country": "India",
+    "state": "Delhi",
+    "city": "Delhi",
+    "postal": " 110088"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883594,
+    "name": "ASHOK VIHAR",
+    "phone": "9711807921",
+    "tagsvalue": "ASHOK VIHAR,Delhi,New Delhi",
+    "tags": [
+      {
+        "tag": "ASHOK VIHAR"
+      },
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "New Delhi"
+      }
+    ],
+    "address": "A-39, SHOP NO-9, PHASE-1,ASHOK VIHAR",
+    "address2": "NORTH WEST",
+    "country": "India",
+    "state": "Delhi",
+    "city": " DELHI - ",
+    "postal": "110052"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883604,
+    "name": "AYA NAGAR",
+    "tagsvalue": "aya nagar,New Delhi,Delhi",
+    "tags": [
+      {
+        "tag": "aya nagar"
+      },
+      {
+        "tag": "New Delhi"
+      },
+      {
+        "tag": "Delhi"
+      }
+    ],
+    "address": "H.No. 51, G\/F Godha Mohalla, Aya Nagar",
+    "country": "India",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "postal": "110047"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883612,
+    "name": "CHATTARPUR",
+    "phone": "9999663792",
+    "tagsvalue": "chattarpur,Delhi,New Delhi",
+    "tags": [
+      {
+        "tag": "chattarpur"
+      },
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "New Delhi"
+      }
+    ],
+    "address": "SHOP NO-619\/10  CHATTARPUR",
+    "country": "India",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "postal": "110074"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883583,
+    "name": "DELHI CANTT",
+    "tagsvalue": "DELHI CANTT,Delhi",
+    "tags": [
+      {
+        "tag": "DELHI CANTT"
+      },
+      {
+        "tag": "Delhi"
+      }
+    ],
+    "address": "III-1\/3, GOPI NATH BAZAR, DELHI CANTT",
+    "country": "India",
+    "state": "Delhi",
+    "city": "DELHI",
+    "postal": "110010"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8888322,
+    "name": "DWARKA 4",
+    "phone": "9810124268",
+    "tagsvalue": "DWARKA 4,Delhi",
+    "tags": [
+      {
+        "tag": "DWARKA 4"
+      },
+      {
+        "tag": "Delhi"
+      }
+    ],
+    "address": "SHOP NO- -G1, MANISH TWIN PLAZA, PLOT NO-2 MLU NEW DELHI ",
+    "country": "India",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "postal": "110078"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883606,
+    "name": "GANESH NAGAR",
+    "phone": "9999824103",
+    "tagsvalue": "GANESH NAGAR,Delhi",
+    "tags": [
+      {
+        "tag": "GANESH NAGAR"
+      },
+      {
+        "tag": "Delhi"
+      }
+    ],
+    "address": "GROUND FLOOR A-109 GANESH NAGAR NEW DELHI",
+    "country": "India",
+    "state": "Delhi",
+    "city": "Delhi",
+    "postal": "110018"
+  },
+  {
+    "lat": "28.6432286",
+    "lng": "77.17463660000001",
+    "id": 8838202,
+    "name": "GURU HARKISHAN NAGAR",
+    "phone": "9911544666",
+    "tagsvalue": "delhi,New Delhi,west delhi,guru hari krishan nagar",
+    "tags": [
+      {
+        "tag": "delhi"
+      },
+      {
+        "tag": "New Delhi"
+      },
+      {
+        "tag": "west delhi"
+      },
+      {
+        "tag": "guru hari krishan nagar"
+      }
+    ],
+    "address": "SHOP NO-2 G.F , GURU HARKISHAN NAGAR",
+    "country": "India",
+    "state": "Delhi",
+    "city": "New Delhi West",
+    "postal": "110087"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883582,
+    "name": "HARI NAGAR",
+    "phone": "011-47026742",
+    "tagsvalue": "HARI NAGAR,Delhi",
+    "tags": [
+      {
+        "tag": "HARI NAGAR"
+      },
+      {
+        "tag": "Delhi"
+      }
+    ],
+    "address": "BE-359 A NEAR SWARG ASHRAM MANDIR",
+    "country": "India",
+    "state": "Delhi",
+    "city": "Delhi",
+    "postal": "110064"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883609,
+    "name": "JANAKPURI",
+    "phone": "9717501115",
+    "tagsvalue": "Janakpuri,Delhi,New Delhi",
+    "tags": [
+      {
+        "tag": "Janakpuri"
+      },
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "New Delhi"
+      }
+    ],
+    "address": "BA-147A, JAIL ROAD",
+    "address2": "JANAKPURI",
+    "country": "India",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "postal": "110058"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883581,
+    "name": "JANAKPURI NEW",
+    "phone": "9810571667",
+    "tagsvalue": "Delhi,New Delhi,Janakpuri",
+    "tags": [
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "New Delhi"
+      },
+      {
+        "tag": "Janakpuri"
+      }
+    ],
+    "address": "C4E-367,SHOP NO-3, JANAKPURI ",
+    "country": "India",
+    "state": "Delhi",
+    "city": "NEW DELHI",
+    "postal": "110058"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883596,
+    "name": "KALKAJI",
+    "phone": "8130137000",
+    "tagsvalue": "KALKAJI,New Delhi,Delhi",
+    "tags": [
+      {
+        "tag": "KALKAJI"
+      },
+      {
+        "tag": "New Delhi"
+      },
+      {
+        "tag": "Delhi"
+      }
+    ],
+    "address": "F -7, KalkaJI",
+    "country": "India",
+    "state": "Delhi",
+    "city": "New delhi",
+    "postal": "110019"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883584,
+    "name": "KARKARDUMA",
+    "phone": "01142770041",
+    "tagsvalue": "KARKARDUMA,Delhi,New Delhi",
+    "tags": [
+      {
+        "tag": "KARKARDUMA"
+      },
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "New Delhi"
+      }
+    ],
+    "address": "SHOP NO-G-4, PLOT NO-15, SAINI  ENCLAVE KARKARDUMA",
+    "country": "India",
+    "state": "Delhi",
+    "city": "NEW DELHI",
+    "postal": "110092"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8888327,
+    "name": "KAROL BAGH",
+    "tagsvalue": "KAROL BAGH,Delhi",
+    "tags": [
+      {
+        "tag": "KAROL BAGH"
+      },
+      {
+        "tag": "Delhi"
+      }
+    ],
+    "address": "SHOP NO-107, DESH BANDU GUPTA MARKET, AJMAL KHAN ROAD, KAROL BAGH NEW DELHI",
+    "country": "India",
+    "state": "Delhi",
+    "city": "Delhi",
+    "postal": "110005"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883617,
+    "name": "KHANNA MARKET",
+    "phone": "8800333833",
+    "tagsvalue": "khanna market,Delhi,New Delhi",
+    "tags": [
+      {
+        "tag": "khanna market"
+      },
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "New Delhi"
+      }
+    ],
+    "address": "Shop No. 56, Khanna Market",
+    "country": "India",
+    "state": "Delhi",
+    "city": "New Delhi ",
+    "postal": "110003"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883597,
+    "name": "KRISHNA NAGAR ",
+    "phone": "9999938106",
+    "tagsvalue": "KRISHNA NAGAR,New Delhi,Delhi",
+    "tags": [
+      {
+        "tag": "KRISHNA NAGAR"
+      },
+      {
+        "tag": "New Delhi"
+      },
+      {
+        "tag": "Delhi"
+      }
+    ],
+    "address": "BLOCKA, 4\/17 KRISHNA NAGAR, NEW DELHI",
+    "country": "India",
+    "state": "Delhi",
+    "city": "New delhi",
+    "postal": "110051"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883616,
+    "name": "MALVIYA NAGAR",
+    "phone": "9971177566",
+    "address": "Shop No. E2\/13,Main Road  Malviya, Nagar",
+    "country": "India",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "postal": "110017"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883580,
+    "name": "MAYUR VIHAR PHASE-1",
+    "phone": "801080405",
+    "tagsvalue": "Delhi,Mayur Vihar phase-1,New Delhi",
+    "tags": [
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "Mayur Vihar phase-1"
+      },
+      {
+        "tag": "New Delhi"
+      }
+    ],
+    "address": "Shop No-3, Samachar Marcket, Mayur Vihar Phase-1",
+    "country": "India",
+    "state": "Delhi",
+    "city": "Delhi",
+    "postal": "110091"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883585,
+    "name": "MODEL TOWN-3",
+    "phone": "7834824004",
+    "tagsvalue": "MODEL TOWN-3,Delhi,New Delhi",
+    "tags": [
+      {
+        "tag": "MODEL TOWN-3"
+      },
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "New Delhi"
+      }
+    ],
+    "address": "G-4 Main Market,Model Town 3",
+    "country": "India",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "postal": "110009"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8888326,
+    "name": "MUKHERJEE NAGAR",
+    "phone": "9650535437",
+    "tagsvalue": "MUKHERJEE NAGAR,Delhi",
+    "tags": [
+      {
+        "tag": "MUKHERJEE NAGAR"
+      },
+      {
+        "tag": "Delhi"
+      }
+    ],
+    "address": "104, STATE BANK COLONY, G T KARNAL ROADNORTH WEST DELHI,",
+    "country": "India",
+    "state": "Delhi",
+    "city": "Delhi",
+    "postal": "110009"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8888328,
+    "name": "NAJAFGARH",
+    "tagsvalue": "NAJAFGARH,Delhi",
+    "tags": [
+      {
+        "tag": "NAJAFGARH"
+      },
+      {
+        "tag": "Delhi"
+      }
+    ],
+    "address": "OUT OF KHASRA NO-507, PROPERTY NO-85,DELHI, SOTH WEST DELHI,SITUATED AT OLD ROSHAN PURA, NAJAFGARGH",
+    "country": "India",
+    "state": "Delhi",
+    "city": "Delhi",
+    "postal": "110043"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883589,
+    "name": "NARAYANA",
+    "phone": "7503944422",
+    "tagsvalue": "NARAYANA,New Delhi,west delhi,Delhi",
+    "tags": [
+      {
+        "tag": "NARAYANA"
+      },
+      {
+        "tag": "New Delhi"
+      },
+      {
+        "tag": "west delhi"
+      },
+      {
+        "tag": "Delhi"
+      }
+    ],
+    "address": "Shop No. 21 Central Market,Opp. Axis Bank, Naraina west delhi Narayna Vihar",
+    "country": "India",
+    "state": "Delhi",
+    "city": "delhi",
+    "postal": "110028"
+  },
+  {
+    "lat": "28.571562",
+    "lng": "77.26247",
+    "id": 8883590,
+    "name": "NEW FRIENDS COLONY",
+    "phone": "011-40554600",
+    "tagsvalue": "NEW FRIENDS COLONY,New Delhi,Delhi",
+    "tags": [
+      {
+        "tag": "NEW FRIENDS COLONY"
+      },
+      {
+        "tag": "New Delhi"
+      },
+      {
+        "tag": "Delhi"
+      }
+    ],
+    "address": "Shop No. 29-43, Block -  C, New Friends Colony",
+    "country": "India",
+    "state": "Delhi",
+    "city": "DELHI",
+    "postal": "110025"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883579,
+    "name": "PASCHIM VIHAR",
+    "phone": "+91-9717313333",
+    "tagsvalue": "New Delhi,Delhi,Paschim vihar",
+    "tags": [
+      {
+        "tag": "New Delhi"
+      },
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "Paschim vihar"
+      }
+    ],
+    "address": "Shop No. - 1, A4 Gole DDA Market, Pashchim Vihar",
+    "country": "India",
+    "state": "Delhi",
+    "city": "new delhi",
+    "postal": "110063"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883578,
+    "name": "PATEL NAGAR",
+    "phone": "+91-9711584949",
+    "tagsvalue": "New Delhi,Delhi,Patel Nagar",
+    "tags": [
+      {
+        "tag": "New Delhi"
+      },
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "Patel Nagar"
+      }
+    ],
+    "address": "29\/1, Shop No.-2, East Patel Nagar",
+    "country": "India",
+    "state": "Delhi",
+    "city": "New Delhi ",
+    "postal": "110008"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8888325,
+    "name": "PATPARGANG",
+    "phone": "9873422682",
+    "tagsvalue": "Delhi,PATPARGANG",
+    "tags": [
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "PATPARGANG"
+      }
+    ],
+    "address": "G-4, PANKAJ CORNOR PLAZA-1, PLOT NO-01 LSC I.P. EXTENSION,PATPARGANG, East Delhi ",
+    "country": "India",
+    "state": "Delhi",
+    "city": "Delhi",
+    "postal": "110092"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883610,
+    "name": "PITAMPURA",
+    "phone": "011-47046282",
+    "tagsvalue": "PITAMPURA,New Delhi,Delhi",
+    "tags": [
+      {
+        "tag": "PITAMPURA"
+      },
+      {
+        "tag": "New Delhi"
+      },
+      {
+        "tag": "Delhi"
+      }
+    ],
+    "address": "SHOP NO-2, J.D MARKET",
+    "country": "India",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "postal": "110034"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883592,
+    "name": "PREET VIHAR ",
+    "phone": "011-47550601",
+    "tagsvalue": "PREET VIHAR,Delhi,New Delhi",
+    "tags": [
+      {
+        "tag": "PREET VIHAR"
+      },
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "New Delhi"
+      }
+    ],
+    "address": "Shop No G1 Ground Floor, Plot No 9 &11,DDA Shopping Complex,New Rajdhani Enclave, Vikas Marg",
+    "country": "India",
+    "state": "Delhi",
+    "city": "DELHI",
+    "postal": "110092"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8888324,
+    "name": "RAJINDER NAGAR",
+    "phone": "9811175876",
+    "tagsvalue": "Delhi,RAJINDER NAGAR",
+    "tags": [
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "RAJINDER NAGAR"
+      }
+    ],
+    "address": "35\/4, OLD RAJINDER NAGAR, RAJINDER NAGAR, CENTRAL DELHI,",
+    "country": "India",
+    "state": "Delhi",
+    "city": "Delhi",
+    "postal": "110060"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883611,
+    "name": "RAJOKRI",
+    "phone": "9643617797",
+    "tagsvalue": "RAJOKRI,New Delhi,Delhi",
+    "tags": [
+      {
+        "tag": "RAJOKRI"
+      },
+      {
+        "tag": "New Delhi"
+      },
+      {
+        "tag": "Delhi"
+      }
+    ],
+    "address": "Shop No. 3, 4 Rajasthan Raj path, Vill. Rajokri",
+    "country": "India",
+    "state": "Delhi",
+    "city": "New Delhi ",
+    "postal": " 110038"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883595,
+    "name": "RAMESH NAGAR",
+    "phone": "8826260555",
+    "tagsvalue": "RAMESH NAGAR,Delhi,New Delhi",
+    "tags": [
+      {
+        "tag": "RAMESH NAGAR"
+      },
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "New Delhi"
+      }
+    ],
+    "address": "SHOP NO-12, OLD MARKET,RAMESH NAGAR",
+    "country": "India",
+    "state": "Delhi",
+    "city": "DELHI",
+    "postal": "110015"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883603,
+    "name": "ROHINI SECTOR-7",
+    "phone": "9999139403",
+    "tagsvalue": "rohini sector-7,rohini-7,New Delhi,Delhi",
+    "tags": [
+      {
+        "tag": "rohini sector-7"
+      },
+      {
+        "tag": "rohini-7"
+      },
+      {
+        "tag": "New Delhi"
+      },
+      {
+        "tag": "Delhi"
+      }
+    ],
+    "address": "C-9\/30 SECTER-7, ROHNI",
+    "country": "India",
+    "state": "Delhi",
+    "city": "DELHI",
+    "postal": "110085"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883613,
+    "name": "ROHINI SECTOR-7",
+    "phone": " 49539498",
+    "tagsvalue": "rohini sector-7,rohini,rohini-7,Delhi,New Delhi",
+    "tags": [
+      {
+        "tag": "rohini sector-7"
+      },
+      {
+        "tag": "rohini"
+      },
+      {
+        "tag": "rohini-7"
+      },
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "New Delhi"
+      }
+    ],
+    "address": "B 1\/18 SECTOR-16 ROHINI ",
+    "country": "India",
+    "state": "Delhi",
+    "city": "Delhi",
+    "postal": "110085"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883593,
+    "name": "SAGARPUR",
+    "phone": "9910390653",
+    "tagsvalue": "SAGARPUR,Delhi,New Delhi",
+    "tags": [
+      {
+        "tag": "SAGARPUR"
+      },
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "New Delhi"
+      }
+    ],
+    "address": "WZ-  94\/1, VASHIT PARK, PANKA ROAD",
+    "country": "India",
+    "state": "Delhi",
+    "city": "NEW DELHI",
+    "postal": " 110046"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883588,
+    "name": "SAINIK VIHAR RANI BAGH",
+    "phone": "9999716710",
+    "tagsvalue": "SAINIK VIHAR RANI BAGH,SAINIK VIHAR,Delhi,New Delhi",
+    "tags": [
+      {
+        "tag": "SAINIK VIHAR RANI BAGH"
+      },
+      {
+        "tag": "SAINIK VIHAR"
+      },
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "New Delhi"
+      }
+    ],
+    "address": "SHOP NO-1.2 PLOT NO-6, GARG PALAZA LSC SHOPING CENTER",
+    "country": "India",
+    "state": "Delhi",
+    "city": "Delhi",
+    "postal": "110034"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883586,
+    "name": "SANT NAGAR BURARI",
+    "phone": "9999530169, 9999630169",
+    "tagsvalue": "burari,sant nagar,Delhi,New Delhi",
+    "tags": [
+      {
+        "tag": "burari"
+      },
+      {
+        "tag": "sant nagar"
+      },
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "New Delhi"
+      }
+    ],
+    "address": "BURARI,SHOP NO. 1-A KH NO. 122\/2\/3\/4 G.F ,WEST SANT NAGAR BURARI",
+    "country": "India",
+    "state": "Delhi",
+    "city": "Delhi",
+    "postal": "110065"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883591,
+    "name": "SARITA VIHAR",
+    "phone": "8010407500",
+    "tagsvalue": "SARITA VIHAR,Delhi,New Delhi",
+    "tags": [
+      {
+        "tag": "SARITA VIHAR"
+      },
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "New Delhi"
+      }
+    ],
+    "address": "H Block Marcket, Shop No-4 SARITA VIHAR",
+    "country": "India",
+    "state": "Delhi",
+    "city": "DELHI",
+    "postal": "110076"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883605,
+    "name": "UTTAM NAGAR",
+    "phone": "9990993275",
+    "tagsvalue": "uttam nagar,New Delhi,delhi",
+    "tags": [
+      {
+        "tag": "uttam nagar"
+      },
+      {
+        "tag": "New Delhi"
+      },
+      {
+        "tag": "delhi"
+      }
+    ],
+    "address": "WZ-8 METRO PILER NO-666, UTTAM NAGAR",
+    "country": "India",
+    "state": "Delhi",
+    "city": "delhi",
+    "postal": "110059"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883587,
+    "name": "VIJAY NAGAR",
+    "phone": "9555655011",
+    "tagsvalue": "vijay nagar,Delhi,New Delhi",
+    "tags": [
+      {
+        "tag": "vijay nagar"
+      },
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "New Delhi"
+      }
+    ],
+    "address": "G - 17, Hurson Lane Vijay Nagar New Delhi",
+    "country": "India",
+    "state": "Delhi",
+    "city": "DELHI",
+    "postal": "110009"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883614,
+    "name": "VIKAS PURI",
+    "phone": "9810124268",
+    "tagsvalue": "VIKAS PURI,Delhi,New Delhi",
+    "tags": [
+      {
+        "tag": "VIKAS PURI"
+      },
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "New Delhi"
+      }
+    ],
+    "address": "SHOP NO-GG-1\/3-A, VIKAS PURI",
+    "country": "India",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "postal": "110018"
+  },
+  {
+    "lat": "28.5387271",
+    "lng": "77.2772993",
+    "id": 8883615,
+    "name": "VISHNU GARDEN",
+    "phone": "8800109292",
+    "tagsvalue": "vishnu garden,Delhi,New Delhi",
+    "tags": [
+      {
+        "tag": "vishnu garden"
+      },
+      {
+        "tag": "Delhi"
+      },
+      {
+        "tag": "New Delhi"
+      }
+    ],
+    "address": "A-179, Vishnu Garden, Punjabi Market, Mukharjee Park New Delhi",
+    "country": "India",
+    "state": "Delhi",
+    "city": "Delhi",
+    "postal": "110018"
+  }
+]
